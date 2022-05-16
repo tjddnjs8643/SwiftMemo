@@ -20,7 +20,7 @@ struct ComposeView: View {
                 TextEditor(text: $content)
                     .padding()
             }
-            .navigationTitle("new Memo")
+            .navigationTitle("New Memo")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar{
                 ToolbarItemGroup(placement: .navigationBarLeading)
@@ -37,7 +37,6 @@ struct ComposeView: View {
                 {
                     Button {
                         store.insert(memo: content)
-                        
                         dismiss()
                     } label: {
                         Text("save")
