@@ -25,6 +25,8 @@
 		8A6920AA28321EB8005832BD /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6920A828321EB8005832BD /* MemoCell.swift */; };
 		8A6920AC28321F64005832BD /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6920AB28321F64005832BD /* ComposeView.swift */; };
 		8A6920AD28321F64005832BD /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6920AB28321F64005832BD /* ComposeView.swift */; };
+		8A6920AF2832239F005832BD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6920AE2832239F005832BD /* DetailView.swift */; };
+		8A6920B02832239F005832BD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6920AE2832239F005832BD /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,7 @@
 		8A6920A4283216F4005832BD /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		8A6920A828321EB8005832BD /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		8A6920AB28321F64005832BD /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		8A6920AE2832239F005832BD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 				8A69209C28321528005832BD /* MainListView.swift */,
 				8A6920A828321EB8005832BD /* MemoCell.swift */,
 				8A6920AB28321F64005832BD /* ComposeView.swift */,
+				8A6920AE2832239F005832BD /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6920A928321EB8005832BD /* MemoCell.swift in Sources */,
+				8A6920AF2832239F005832BD /* DetailView.swift in Sources */,
 				8A69208A283214CC005832BD /* SwiftUIMemo.xcdatamodeld in Sources */,
 				8A6920A5283216F4005832BD /* MemoStore.swift in Sources */,
 				8A69209D28321528005832BD /* MainListView.swift in Sources */,
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6920AA28321EB8005832BD /* MemoCell.swift in Sources */,
+				8A6920B02832239F005832BD /* DetailView.swift in Sources */,
 				8A69208B283214CC005832BD /* SwiftUIMemo.xcdatamodeld in Sources */,
 				8A6920A6283216F4005832BD /* MemoStore.swift in Sources */,
 				8A69209E28321528005832BD /* MainListView.swift in Sources */,
